@@ -7,33 +7,31 @@ http://www.templatemo.com/tm-501-neaty
 */
 body {
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-	font-size: 16px;
+	font-size: 20px;
 	font-weight: 300;
 	overflow-x: hidden;
 }
-.subsection {padding-bottom: 40px;}
 
-a, button { transition: all 0.3s ease;font-weight: normal}
+a, button { transition: all 0.3s ease; }
 a:hover,
 a:focus {
 	text-decoration: none;
 	outline: none;
-	color: #6E4B69;
 }
 
-.row { display: block}
+.row { display: block; }
 .tm-left-right-container { width: 100%; }
 
 .tm-blue-bg {
-	background-color: #52506E;
+	background-color: #006599;
 	color: white;
 }
 
-.tm-blue-text {	color: #52506E; }
+.tm-blue-text {	color: #006599; }
 .tm-blue-bg a {	color: white; }
 
 .tm-site-name {
-	font-size: 2rem;
+	font-size: 4rem;
 	margin-top: 20px;
 }
 
@@ -49,21 +47,21 @@ a:focus {
 	padding-left: 0;
 }
 
-.tm-section { margin-bottom: 20px; }
-.tm-welcome-title {	font-size: 2rem; }
-.tm-section-title {	font-size: 1.8rem; }
-.tm-content-div { padding: 30px; }
+.tm-section { margin-bottom: 60px; }
+.tm-welcome-title {	font-size: 2.4rem; }
+.tm-section-title {	font-size: 2.2rem; }
+.tm-content-div { padding: 40px; }
 .tm-margin-b-45 { margin-bottom: 45px; }
 .tm-margin-b-30 { margin-bottom: 30px; }
 p { line-height: 2; }
 
 .tm-button {
-	background-color: #52506E;
+	background-color: #006599;
 	border: none;
 	color: white;
 	cursor: pointer;
 	display: inline-block;
-	font-size: 1.2rem;	
+	font-size: 1.4rem;	
 	padding: 18px 35px;
 }
 
@@ -72,7 +70,7 @@ p { line-height: 2; }
 .tm-button:hover,
 .tm-button:active,
 .tm-button:focus {
-	background-color: #6E4B69;
+	background-color: #2790c6;
 	color: white;
 }
 
@@ -80,7 +78,7 @@ p { line-height: 2; }
 .tm-nav-item:active a,
 .tm-nav-item:focus a,
 .tm-nav-item-link.active {
-	color: #E0DEC5;
+	color: #f4ef5e;
 }
 
 .tm-about-img-container { margin-top: 50px; }
@@ -113,33 +111,31 @@ p { line-height: 2; }
 .tm-contact-right { margin-top: 40px; }
 
 .form-control {
-	border-color: #6E4B69;
+	border-color: #0a6697;
 	border-radius: 0;
-	color: #6E4B69;
+	color: #4286ab;
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-	font-size: 1.1rem;
+	font-size: 1.3rem;
 }
-.tm-pub {
-	padding: 18px;
-}
+
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
-	color: #6E4B69 !important;
+	color: #4286ab !important;
 }
  
 input:-moz-placeholder,
 textarea:-moz-placeholder { /* Firefox 18- */
-	color: #6E4B69 !important;  
+	color: #4286ab !important;  
 }
  
 input::-moz-placeholder,
 textarea::-moz-placeholder {  /* Firefox 19+ */
-	color: #6E4B69 !important;  
+	color: #4286ab !important;  
 }
  
 input:-ms-input-placeholder,
 textarea:-ms-input-placeholder {  
-	color: #6E4B69 !important;  
+	color: #4286ab !important;  
 }
 
 .tm-contact-right {	padding-left: 15px; }
@@ -149,7 +145,7 @@ textarea:-ms-input-placeholder {
 @media (min-width: 576px) {
 	.container { width: 100%; }
 	.tm-site-name { margin-top: 35px; }
-	.tm-welcome-title { font-size: 2rem; }
+	.tm-welcome-title { font-size: 3rem; }
 	.tm-img-container-1 { width: 20%; }
 	.tm-img-container-2 { width: 33.3334%; }
 	.tm-img-container-3 { width: 25%; }
@@ -180,14 +176,14 @@ textarea:-ms-input-placeholder {
 
 	.tm-nav-item {
 		cursor: pointer;
-		font-size: 1 rem;
+		font-size: 1.5rem;
 		list-style: none;
 		padding: 18px 30px;
 		transition: all 0.3s ease;
 	}
 
 	.tm-site-name {
-	    font-size: 2rem;
+	    font-size: 3.3rem;
 	    margin-top: 30px;
 	}
 
@@ -196,7 +192,7 @@ textarea:-ms-input-placeholder {
 	    padding-bottom: 50px;
 	}
 
-	.tm-section { margin-bottom: 50px; }
+	.tm-section { margin-bottom: 100px; }
 
 	.tm-content-div { padding: 80px 40px 30px 80px;	}
 
@@ -271,10 +267,10 @@ textarea:-ms-input-placeholder {
 	    padding-bottom: 20px;
 	}
 
-	.tm-nav-item { font-size: 1.3rem; }
+	.tm-nav-item { font-size: 1.4rem; }
 
 	.tm-site-name {
-		font-size: 1.9 rem;
+		font-size: 2.4rem;
 		margin-top: 10px;
 	}
 }
@@ -285,5 +281,5 @@ textarea:-ms-input-placeholder {
 	    padding-bottom: 100px;
 	}
 
-	.tm-nav-item { font-size: 1.4rem; }
+	.tm-nav-item { font-size: 1.9rem; }
 }
