@@ -56,7 +56,6 @@ a:focus {
 .tm-margin-b-45 { margin-bottom: 45px; }
 .tm-margin-b-30 { margin-bottom: 30px; }
 p { line-height: 2; }
-
 .tm-button {
 	background-color: #52506E;
 	border: none;
@@ -122,6 +121,7 @@ p { line-height: 2; }
 .tm-pub {
 	padding: 18px;
 }
+
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
 	color: #6E4B69 !important;
